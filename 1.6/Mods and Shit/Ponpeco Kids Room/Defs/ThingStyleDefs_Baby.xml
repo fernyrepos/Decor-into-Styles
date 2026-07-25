@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_ShelfSmall</defName>
+		<graphicData>
+            <texPath>Things/Building/PFKFurniture/PFK_ShelfSmall/PFK_ShelfSmall</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <renderQueue>2901</renderQueue>
+            <drawSize>(1.1,1.1)</drawSize>
+            <drawOffset>(0,0,-0.1)</drawOffset>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_Stool</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKFurniture/PFK_Stool/PFK_Stool</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(0.8)</drawSize>
+		<damageData>
+			<rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+			<rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+			<rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+			<rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+		</damageData>
+		<shadowData>
+			<volume>(0.18, 0.23, 0.18)</volume>
+		</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_DiningChair</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKFurniture/PFK_DiningChair/PFK_DiningChair</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<renderQueue>2901</renderQueue>
+		<drawSize>(1,1)</drawSize>
+		<damageData>
+			<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+			<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+			<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+			<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+		</damageData>
+		<shadowData>
+			<volume>(0.23, 0.26, 0.23)</volume>
+		</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_Armchair</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKFurniture/PFK_Armchair/PFK_Armchair</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<!--<shaderType>CutoutComplex</shaderType>-->
+		<drawSize>(1.3)</drawSize>
+		<damageData>
+			<rectN>(0,0,1,0.703125)</rectN>
+			<rectS>(0.09375,0,0.84375,1)</rectS>
+			<rectE>(0,0,0.84375,0.625)</rectE>
+			<rectW>(0.15625,0,0.84375,0.625)</rectW>
+		</damageData>
+		<shadowData>
+			<volume>(0.3, 0.33, 0.3)</volume>
+		</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_Table2x2c</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKFurniture/PFK_MiniTable/PFK_MiniTable</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(2.4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_MiniTable</defName>
+		<graphicData>
+			<texPath>Things/Building/PFKFurniture/PFK_MiniTable/PFK_MiniTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_EndTable</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKFurniture/PFK_EndTable/PFK_EndTable</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<renderQueue>2901</renderQueue>
+		<drawSize>1.3</drawSize>
+		<shadowData>
+			<volume>(0.3, 0.6, 0.3)</volume>
+		</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_Dresser</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKFurniture/PFK_Dresser/PFK_Dresser</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<renderQueue>2901</renderQueue>
+		<drawSize>(2.1,2.1)</drawSize>
+		<drawOffsetNorth>(0,0,0.5)</drawOffsetNorth>
+		<drawOffsetSouth>(0,0,0.5)</drawOffsetSouth>
+		<drawOffsetWest>(0,0,0)</drawOffsetWest>
+		<drawOffsetEast>(0,0,0)</drawOffsetEast>
+		<damageData>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		</damageData>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_Bedroll</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKFurniture/PFK_Bedroll/PFK_Bedroll</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<renderQueue>2901</renderQueue>
+		<drawSize>(1,2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_BedAa</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKFurniture/PFK_BedAa/PFK_BedAa</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<drawSize>(2,2)</drawSize>
+		<damageData>
+			<rect>(0,0.05,1,1.95)</rect>
+		</damageData>
+		<renderQueue>2901</renderQueue>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_DoubleBed</defName>
+		<graphicData>
+			<texPath>Things/Building/PFKFurniture/PFK_RoyalBed/PFK_RoyalBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3)</drawSize>
+			<drawOffset>(0,0,0.4)</drawOffset>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_RoyalBed</defName>
+		<graphicData>
+			<texPath>Things/Building/PFKFurniture/PFK_RoyalBed/PFK_RoyalBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3)</drawSize>
+			<drawOffset>(0,0,0.4)</drawOffset>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_RingToss</defName>
+		<graphicData>
+		<texPath>Things/Building/PFKJoy/PFK_RingToss/PFK_RingTossA</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_TubeTelevision</defName>
+        <graphicData>
+            <texPath>Things/Building/PFKJoy/PFK_TubeTelevision/PFK_TubeTelevision</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shadowData>
+                <volume>(0.5, 0.3, 0.4)</volume>
+            </shadowData>
+            <shaderType>CutoutComplex</shaderType>
+            <renderQueue>2901</renderQueue>
+        </graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_PFK_AnimalLampB</defName>
+			<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+			<texPath>Things/Building/PFKFurniture/PFK_AnimalLamp/PFK_AnimalLampB</texPath>
+			</graphicData>
+	</ThingStyleDef>
+
+
+
+
+
+</Defs>

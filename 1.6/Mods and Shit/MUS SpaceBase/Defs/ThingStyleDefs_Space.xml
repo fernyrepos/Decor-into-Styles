@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Wall</defName>
+		<graphicData>
+			<texPath>wall_1SpaceBaseWall/MUS_SpaceBaseWall_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_StandingLamp</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_FloorLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Couch</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_DoubleSofa</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5,1.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Armchair</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_Sofa</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_DiningChair</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_BarStool</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Table1x2c</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/FernySpace_Table_DirectionalSwap</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5,1.25)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Table2x2c</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_BigTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5,2.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Table2x4c</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/FernySpace_LongTable_DirectionalSwap</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4.5,4.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_EndTable</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_SmallTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Bed</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_Bed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5,2.5)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_DoubleBed</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_DoubleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5,2.5)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_AnimalBed</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_AnimalBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.2,1.2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Wardrobe</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_Cabinet</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5,2.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Shelf</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_Shelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,2.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_ShelfSmall</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_ShelfSmall</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_TubeTelevision</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_Television</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_FlatscreenTelevision</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_BigTelevision</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5,2.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Bookcase</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_Bookcase</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,2.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernySpace_Crib</defName>
+		<graphicData>
+			<texPath>furniture_5SpaceBasefurniture/MUS_SpaceBase_Crib</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>

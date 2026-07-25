@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul">
+				<xpath>Defs/ThingStyleDef[defName="FernyRustic_Table1x1c"]/graphicData[graphicClass="Graphic_Single"]</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingStyleDef[defName="FernyRustic_Table1x1c"]/graphicData/graphicClass</xpath>
+					<value>
+						<graphicClass>Graphic_Multi</graphicClass>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul">
+				<xpath>Defs/ThingStyleDef[defName="FernyRustic_Table1x1c"]/graphicData[drawSize="(1,1)"]</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingStyleDef[defName="FernyRustic_Table1x1c"]/graphicData/drawSize</xpath>
+					<value>
+						<drawSize>(3,3)</drawSize>
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional" MayRequire="DankPyon.Medieval.Overhaul,vanillaexpanded.vfecore">
+				<xpath>Defs/StyleCategoryDef[defName="Rustic"]/thingDefStyles/li[thingDef="Table1x1c"]</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/StyleCategoryDef[defName="Rustic"]/thingDefStyles/li/thingDef[text()="Table1x1c"]</xpath>
+					<value>
+						<thingDef>Table_1x1c</thingDef>
+					</value>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "DankPyon_OldWorld"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/StyleCategoryDef[defName = "DankPyon_OldWorld"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>Table2x2c</thingDef>
+					<styleDef>FernyRustic_Table2x2c</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/StyleCategoryDef[defName = "DankPyon_OldWorld"]/thingDefStyles</xpath>
+					<match Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/StyleCategoryDef[defName = "DankPyon_OldWorld"]/thingDefStyles</xpath>
+						<value>
+							<li>
+								<thingDef>Table_1x1c</thingDef>
+								<styleDef>FernyRustic_Table1x1c</styleDef>
+							</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName = "EndTable"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName = "EndTable"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName = "EndTable"]</xpath>
+				<value>
+					<comps>
+						<li Class="CompProperties_Styleable" />
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName = "EndTable"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_Styleable" />
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName = "Dresser"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName = "Dresser"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Dresser"]</xpath>
+				<value>
+					<comps>
+						<li Class="CompProperties_Styleable" />
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Dresser"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_Styleable" />
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName = "Door"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Door"]</xpath>
+				<value>
+					<comps>
+						<li Class="CompProperties_Styleable" />
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Door"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_Styleable" />
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef[defName="DankPyon_OldWorld"]/thingDefStyles</xpath>
+		<value>
+			<li>
+				<thingDef>Table2x4c</thingDef>
+				<styleDef>FernyRustic_Table2x4c</styleDef>
+			</li>
+			<li>
+				<thingDef>Stool</thingDef>
+				<styleDef>FernyRustic_Stool</styleDef>
+			</li>
+			<li>
+				<thingDef>DiningChair</thingDef>
+				<styleDef>FernyRustic_DiningChair</styleDef>
+			</li>
+			<li>
+				<thingDef>EndTable</thingDef>
+				<styleDef>FernyRustic_EndTable</styleDef>
+			</li>
+			<li>
+				<thingDef>Door</thingDef>
+				<styleDef>FernyDankPyon_RusticDoor</styleDef>
+			</li>
+			<li>
+				<thingDef>Dresser</thingDef>
+				<styleDef>FernyDankPyon_RusticDresser</styleDef>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<success>Always</success>
+					<xpath>Defs/StyleCategoryDef[defName="DankPyon_OldWorld"]/thingDefStyles</xpath>
+					<value>
+						<li>
+							<thingDef>Table_1x1c</thingDef>
+							<styleDef>FernyRustic_Table1x1c</styleDef>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

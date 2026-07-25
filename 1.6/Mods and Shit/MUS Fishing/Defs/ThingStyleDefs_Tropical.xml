@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_Wall</defName>
+		<graphicData>
+			<texPath>FishingstyleWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_Column</defName>
+		<graphicData>
+			<drawSize>(1.3,1.65)</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+			<texPath>FishingstyleWall/MUS_Fishingstyle_Column</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_Armchair</defName>
+		<graphicData>
+			<texPath>Fishingfurniture/MUS_Fishing_CaneChair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.15,1.15)</drawSize>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.23, 0.26, 0.23)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_Couch</defName>
+		<graphicData>
+			<texPath>Fishingfurniture/MUS_Fishing_CaneBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.30,1.15)</drawSize>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.23, 0.26, 0.23)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_Table1x2c</defName>
+		<graphicData>
+			<texPath>Fishingfurniture/MUS_Fishing_RattanTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.15,2.3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_EndTable</defName>
+		<graphicData>
+			<texPath>Fishingfurniture/MUS_Fishing_RattanLowTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.3,1.3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_Dresser</defName>
+		<graphicData>
+			<texPath>Fishingfurniture/MUS_Fishing_RattanCabinet</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.3,1.3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_Bed</defName>
+		<graphicData>
+			<texPath>Fishingfurniture/MUS_Fishing_RattanBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_DoubleBed</defName>
+		<graphicData>
+			<texPath>Fishingfurniture/MUS_Fishing_RattanDoubleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyTropical_PlantPot</defName>
+		<graphicData>
+			<texPath>Fishingfurniture/MUS_Fishing_Potting</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.65,1.65)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>

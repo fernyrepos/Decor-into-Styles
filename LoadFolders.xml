@@ -1,0 +1,13 @@
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li>1.6</li>
+    <li IfModActive="Van.DACrypts">1.6/Mods and Shit/Dark Ages CAT</li>
+    <li IfModActive="erin.cottagecollection">1.6/Mods and Shit/Erin Cottage Collection</li>
+    <li IfModActive="dankpyon.medieval.overhaul">1.6/Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="mingtuwuxiang.gothicdecorative">1.6/Mods and Shit/MUS Gothic</li>
+    <li IfModActive="mingtuwuxiang.fishingdecorative">1.6/Mods and Shit/MUS Fishing</li>
+    <li IfModActive="mingtuwuxiang.spacebasedecorative">1.6/Mods and Shit/MUS SpaceBase</li>
+    <li IfModActive="ponpeco.pfkidsroom">1.6/Mods and Shit/Ponpeco Kids Room</li>
+  </v1.6>
+</loadFolders>

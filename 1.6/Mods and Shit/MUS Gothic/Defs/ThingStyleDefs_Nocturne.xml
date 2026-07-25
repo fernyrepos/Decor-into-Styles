@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Wall</defName>
+		<graphicData>
+			<texPath>GothicstyleWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Fence</defName>
+		<graphicData>
+			<texPath>GothicstyleFence</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>Asymmetric</linkType>
+			<linkFlags>
+				<li>Fences</li>
+			</linkFlags>
+			<asymmetricLink>
+				<linkFlags>
+					<li>Wall</li>
+					<li>Rock</li>
+				</linkFlags>
+				<linkToDoors>true</linkToDoors>
+				<drawDoorBorderEast>
+					<color>(0,0,0)</color>
+					<size>(0.04, 0.77)</size>
+					<offset>(0.5, 0, -0.08)</offset>
+				</drawDoorBorderEast>
+				<drawDoorBorderWest>
+					<color>(0,0,0)</color>
+					<size>(0.04, 0.77)</size>
+					<offset>(-0.5, 0, -0.08)</offset>
+				</drawDoorBorderWest>
+			</asymmetricLink>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.35,0.1,0.3,0.7)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_FenceDoor</defName>
+		<graphicData>
+			<texPath>GothicstyleStructure/MUS_Gothicstyle_Fencedoor_Mover</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Column</defName>
+		<graphicData>
+			<drawSize>(1.3,1.3)</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+			<texPath>GothicstyleStructure/MUS_Gothicstyle_Column</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Door</defName>
+		<graphicData>
+			<texPath>GothicstyleStructure/MUS_Gothicstyle_door_Mover</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Autodoor</defName>
+		<graphicData>
+			<texPath>GothicstyleStructure/MUS_Gothicstyle_Autodoor_Mover</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Candlestick</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_Candlestick</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3.3,3.3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Flowerpot</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_Flowerpot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_DoubleSofa</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_DoubleSofa</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.2,1.1)</drawSize>
+			<damageData>
+				<rectN>(0,0,1,0.703125)</rectN>
+				<rectS>(0.09375,0,0.84375,1)</rectS>
+				<rectE>(0,0,0.84375,0.625)</rectE>
+				<rectW>(0.15625,0,0.84375,0.625)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.3, 0.33, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Sofa</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_Sofa</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.1,1.1)</drawSize>
+			<damageData>
+				<rectN>(0,0,1,0.703125)</rectN>
+				<rectS>(0.09375,0,0.84375,1)</rectS>
+				<rectE>(0,0,0.84375,0.625)</rectE>
+				<rectW>(0.15625,0,0.84375,0.625)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.3, 0.33, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_DiningChair</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_DiningChair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.4,1.4)</drawSize>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.23, 0.26, 0.23)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_TableSmall</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/FernyNocturne_TableSmall_DirectionalSwap</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.15,2.3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Table</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_Table</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.3,2.3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_TableBig</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/FernyNocturne_TableBig_DirectionalSwap</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.5,5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Cupboard</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_Cupboard</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.8,2.8)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Wardrobe</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_Wardrobe</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.8,2.8)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_BedsideTable</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_BedsideTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.8,2.8)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Bed</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_Bed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.7,2.7)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_DoubleBed</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_DoubleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.7,2.7)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_Bookcase</defName>
+		<graphicData>
+			<texPath>GothicstyleStorageFurniture/MUS_Gothicstyle_Bookcase</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_TableMini</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_TableMini</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.35,1.35)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_HeavyCurtain</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_HeavyCurtain</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.2,1.6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNocturne_CoffinBed</defName>
+		<graphicData>
+			<texPath>GothicstyleFurniture/MUS_Gothicstyle_CoffinBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.6,2.6)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>

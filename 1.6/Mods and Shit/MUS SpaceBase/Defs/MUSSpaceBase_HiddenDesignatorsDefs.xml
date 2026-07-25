@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyMUSSpaceBaseStyles_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>MUS_SpaceBase_Wall</li>
+			<li>MUS_SpaceBase_FloorLamp</li>
+			<li>MUS_SpaceBase_DoubleSofa</li>
+			<li>MUS_SpaceBase_Sofa</li>
+			<li>MUS_SpaceBase_BarStool</li>
+			<li>MUS_SpaceBase_SmallTable</li>
+			<li>MUS_SpaceBase_Table</li>
+			<li>MUS_SpaceBase_BigTable</li>
+			<li>MUS_SpaceBase_LongTable</li>
+			<li>MUS_SpaceBase_Bed</li>
+			<li>MUS_SpaceBase_DoubleBed</li>
+			<li>MUS_SpaceBase_AnimalBed</li>
+			<li>MUS_SpaceBase_Cabinet</li>
+			<li>MUS_SpaceBase_Shelf</li>
+			<li>MUS_SpaceBase_ShelfSmall</li>
+			<li>MUS_SpaceBase_Television</li>
+			<li>MUS_SpaceBase_BigTelevision</li>
+			<li>MUS_SpaceBase_Bookcase</li>
+			<li>MUS_SpaceBase_Crib</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

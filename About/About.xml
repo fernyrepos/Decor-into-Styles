@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Decor into Styles</name>
+	<author>ferny</author>
+	<packageId>ferny.decorintostyles</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.Rimworld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+	</modDependencies>
+	<description>Turns decorative building defs from supported mods into Ideology styles for other buildings.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Van.DACrypts</li>
+		<li>dankpyon.medieval.overhaul</li>
+		<li>erin.cottagecollection</li>
+		<li>ferny.replacelib</li>
+		<li>ponpeco.pfkidsroom</li>
+		<li>mingtuwuxiang.gothicdecorative</li>
+		<li>mingtuwuxiang.fishingdecorative</li>
+	</loadAfter>
+</ModMetaData>

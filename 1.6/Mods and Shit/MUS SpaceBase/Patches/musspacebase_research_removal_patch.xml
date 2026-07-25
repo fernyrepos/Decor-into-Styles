@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef/researchPrerequisites/li[text()="SpaceBase_Explorer_Furniture"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef/prerequisites/li[text()="SpaceBase_Explorer_Furniture"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ResearchProjectDef/researchPrerequisites/li[text()="SpaceBase_Explorer_Furniture"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ResearchProjectDef/prerequisites/li[text()="SpaceBase_Explorer_Furniture"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ResearchProjectDef[defName="SpaceBase_Explorer_Furniture"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_AnimalBed"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_AutoDoor"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BarCounter"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BarStool"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Bed"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BedV"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BigAutoDoor"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BigDoor"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BigTable"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BigTelevision"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BigTire"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Bookcase"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BookcaseSmall"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_BracketModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Cabinet"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_CabinetV"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Carpet"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_CompactBattery"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_ConnectModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_CoralSpecimens"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Crib"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Door"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_DoubleBed"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_DoubleBedV"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_DoubleSofa"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_FixedModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_FloorLamp"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_HolographicInstrument"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_LadderModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_LeftBench"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_LeftExtraWall"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Lockers"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_LockersV"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_LongTable"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_MachineryModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Module"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_MonitorDesertModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_MonitorForestModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_MonitorModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_MonitorOceanModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_RightBench"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_RightExtraWall"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_RockOrnament"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_SchoolDesk"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Shelf"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_ShelfSmall"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_SimpleDoor"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_SmallCarpet"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_SmallTable"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Sofa"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_SolarGeneratorModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_StylingStation"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Table"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Television"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Tire"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Track"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_TropicalPotted"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Wall"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WallDecorCoral"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WallDecorCoralV"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WallDecorPlants"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WallDecorRock"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WallDecorRockV"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WallDecorplantV"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WallLamp"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WallV"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_Window"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName="MUS_SpaceBase_WindowModule"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/TerrainDef[defName="MUS_SpaceBase_MetalFlooring"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/TerrainDef[defName="MUS_SpaceBase_MetalFlooringTransverse"]/researchPrerequisites</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>/Defs/TerrainDef[defName="MUS_SpaceBase_MetalFlooringVertical"]/researchPrerequisites</xpath>
+	</Operation>
+</Patch>

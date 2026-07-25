@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StyleCategoryDef>
+		<defName>Ferny_Baby</defName>
+		<label>baby</label>
+		<iconPath>Styles/Ferny_Baby</iconPath>
+		<thingDefStyles>
+			
+			<li>
+				<thingDef>ShelfSmall</thingDef>
+				<styleDef>Ferny_PFK_ShelfSmall</styleDef>
+			</li>
+
+			<li>
+				<thingDef>Stool</thingDef>
+				<styleDef>Ferny_PFK_Stool</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>DiningChair</thingDef>
+				<styleDef>Ferny_PFK_DiningChair</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>Armchair</thingDef>
+				<styleDef>Ferny_PFK_Armchair</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>Table2x2c</thingDef>
+				<styleDef>Ferny_PFK_Table2x2c</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>EndTable</thingDef>
+				<styleDef>Ferny_PFK_EndTable</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>Dresser</thingDef>
+				<styleDef>Ferny_PFK_Dresser</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>Bedroll</thingDef>
+				<styleDef>Ferny_PFK_Bedroll</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>Bed</thingDef>
+				<styleDef>Ferny_PFK_BedAa</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>DoubleBed</thingDef>
+				<styleDef>Ferny_PFK_DoubleBed</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>RoyalBed</thingDef>
+				<styleDef>Ferny_PFK_RoyalBed</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>HorseshoesPin</thingDef>
+				<styleDef>Ferny_PFK_RingToss</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>TubeTelevision</thingDef>
+				<styleDef>Ferny_PFK_TubeTelevision</styleDef>
+			</li>	
+
+			<li>
+				<thingDef>StandingLamp</thingDef>
+				<styleDef>Ferny_PFK_AnimalLampB</styleDef>
+			</li>	
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+</Defs>

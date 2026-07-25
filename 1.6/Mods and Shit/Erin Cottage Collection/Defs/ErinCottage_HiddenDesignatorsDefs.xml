@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyCottagecore_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>CCot_CottageArmchair</li>
+			<li>CCot_CottageDiningChair</li>
+			<li>CCol_CottageLamp</li>
+			<li>CCot_CottageTable2x2a</li>
+			<li>CCot_CottageTableBlanket2x2a</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

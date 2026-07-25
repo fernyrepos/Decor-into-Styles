@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyMODecorStyles_HiddenDesignators</defName>
+		<hiddenDesignators>		
+			<li>DankPyon_RusticTable1x1c</li>	
+			<li>DankPyon_ReinforcedRusticTable1x1c</li>
+			<li>DankPyon_RusticTable1x2c</li>
+			<li>DankPyon_ReinforcedRusticTable1x2c</li>
+			<li>DankPyon_RusticTable2x2c</li>
+			<li>DankPyon_ReinforcedRusticTable2x2c</li>
+			<li>DankPyon_Table2x4c</li>
+			<li>DankPyon_ReinforcedTable2x4c</li>
+			<li>DankPyon_RusticChair</li>
+			<li>DankPyon_RusticEndTable</li>
+			<li>DankPyon_RusticStool</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>
