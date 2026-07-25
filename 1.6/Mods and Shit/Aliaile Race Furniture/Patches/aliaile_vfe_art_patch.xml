@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VanillaExpanded.VFEArt</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/StyleCategoryDef[defName = "Ferny_Aliaile"]/thingDefStyles</xpath>
+					<value>
+						<li>
+							<thingDef>VFE_RugSmall</thingDef>
+							<styleDef>FernyAliaile_AR_RaguF</styleDef>
+						</li>
+						<li>
+							<thingDef>VFE_RugSmall</thingDef>
+							<styleDef>FernyAliaile_AR_RaguA</styleDef>
+						</li>
+						<li>
+							<thingDef>VFE_RugSmall</thingDef>
+							<styleDef>FernyAliaile_AR_RaguD</styleDef>
+						</li>
+						<li>
+							<thingDef>VFE_RugLarge</thingDef>
+							<styleDef>FernyAliaile_AR_RaguB</styleDef>
+						</li>
+						<li>
+							<thingDef>VFE_RugLarge</thingDef>
+							<styleDef>FernyAliaile_AR_RaguC</styleDef>
+						</li>
+						<li>
+							<thingDef>VFE_RugGrand</thingDef>
+							<styleDef>FernyAliaile_AR_RaguG</styleDef>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName = "VFE_RugSmall"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+					<nomatch Class="PatchOperationConditional">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName = "VFE_RugSmall"]/comps</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "VFE_RugSmall"]</xpath>
+							<value>
+								<comps>
+									<li Class="CompProperties_Styleable" />
+								</comps>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "VFE_RugSmall"]/comps</xpath>
+							<value>
+								<li Class="CompProperties_Styleable" />
+							</value>
+						</match>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName = "VFE_RugLarge"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+					<nomatch Class="PatchOperationConditional">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName = "VFE_RugLarge"]/comps</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "VFE_RugLarge"]</xpath>
+							<value>
+								<comps>
+									<li Class="CompProperties_Styleable" />
+								</comps>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "VFE_RugLarge"]/comps</xpath>
+							<value>
+								<li Class="CompProperties_Styleable" />
+							</value>
+						</match>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName = "VFE_RugGrand"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+					<nomatch Class="PatchOperationConditional">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName = "VFE_RugGrand"]/comps</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "VFE_RugGrand"]</xpath>
+							<value>
+								<comps>
+									<li Class="CompProperties_Styleable" />
+								</comps>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "VFE_RugGrand"]/comps</xpath>
+							<value>
+								<li Class="CompProperties_Styleable" />
+							</value>
+						</match>
+					</nomatch>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

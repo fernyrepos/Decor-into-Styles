@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyRapture_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>RRDiningTable</li>
+			<li>RRDiningTableTwo</li>
+			<li>RRDiningTableThree</li>
+			<li MayRequire="VanillaExpanded.VFECore">RRDiningTableMini</li>
+			<li>RRDesk</li>
+			<li>RROfficeDesk</li>
+			<li>RRStreamlineDesk</li>
+			<li>RRFelzenEndtable</li>
+			<li>RRKarvinaEndtable</li>
+			<li>RRNanteOfficeChair</li>
+			<li>RRRuenOfficeChair</li>
+			<li>RRAmienSofa</li>
+			<li>RRDiningChair</li>
+			<li>RRDiningChairTwo</li>
+			<li>RRMetalBed</li>
+			<li>RRMetalDoubleBed</li>
+			<li>RRArtDecoSingleBed</li>
+			<li>RRArtDecoDoubleBed</li>
+			<li>RRMidModernSingleBed</li>
+			<li>RRMidModernDoubleBed</li>
+			<li>RRStreamlineDoubleBed</li>
+			<li>RRADSingleBedOne</li>
+			<li>RRADSingleBedTwo</li>
+			<li>RRRoyalBed</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">RRCrib</li>
+			<li>RRDresser</li>
+			<li>RRDresserTwo</li>
+			<li MayRequire="VanillaExpanded.VFECore">RRHeronaWardrobe</li>
+			<li MayRequire="VanillaExpanded.VFECore">RRTaragonaWardrobe</li>
+			<li>RRTableLamp</li>
+			<li>RRDeskLamp</li>
+			<li>RRStandingLamp</li>
+			<li>RRStandingLampTwo</li>
+			<li>RRStandingLampThree</li>
+			<li>RRTVSet</li>
+			<li>RRHomeTVSet</li>
+			<li>RRHomeTV</li>
+			<li>RRHomeTVTwo</li>
+			<li>RRBigTV</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

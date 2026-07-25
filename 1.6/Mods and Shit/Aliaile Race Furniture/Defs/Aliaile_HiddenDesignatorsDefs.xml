@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyAliaile_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>ARSaF_Stool</li>
+			<li>ARSaF_DiningChair</li>
+			<li>ARSaF_Armchair</li>
+			<li>ARSaF_Couch</li>
+			<li>ARSaF_PlantPot</li>
+			<li>ARSaF_TubeTelevision</li>
+			<li>ARSaF_FlatscreenTelevision</li>
+			<li>ARSaF_BilliardsTable</li>
+			<li>ARSaF_PokerTable</li>
+			<li>ARSaF_ChessTable</li>
+			<li>ARSaF_Bed</li>
+			<li>ARSaF_DoubleBed</li>
+			<li>ARSaF_RoyalBed</li>
+			<li>ARSaF_EndTable</li>
+			<li>ARSaF_GEndTable</li>
+			<li>ARSaF_Dresser</li>
+			<li>ARSaF_GDresser</li>
+			<li>ARSaF_TableA</li>
+			<li>ARSaF_TableB</li>
+			<li>ARSaF_TableD</li>
+			<li>ARSaF_TableE</li>
+			<li>ARSaF_TableC</li>
+			<li MayRequire="VanillaExpanded.VFECore">ARSaF_TableF</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul">ARSaF_Partition</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul">ARSaF_PartitionB</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul">ARSaF_GPartition</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul">ARSaF_GPartitionB</li>
+			<li MayRequire="VanillaExpanded.VFEArt">AR_RaguD</li>
+			<li MayRequire="VanillaExpanded.VFEArt">AR_RaguC</li>
+			<li MayRequire="VanillaExpanded.VFEArt">AR_RaguA</li>
+			<li MayRequire="VanillaExpanded.VFEArt">AR_RaguB</li>
+			<li MayRequire="VanillaExpanded.VFEArt">AR_RaguF</li>
+			<li MayRequire="VanillaExpanded.VFEArt">AR_RaguG</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AR_StylingStation</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

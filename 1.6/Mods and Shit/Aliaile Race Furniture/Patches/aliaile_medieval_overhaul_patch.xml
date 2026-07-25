@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>DankPyon.Medieval.Overhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/StyleCategoryDef[defName = "Ferny_Aliaile"]/thingDefStyles</xpath>
+					<value>
+						<li>
+							<thingDef>DankPyon_RusticRoomDivider1x2c</thingDef>
+							<styleDef>FernyAliaile_ARSaF_Partition</styleDef>
+						</li>
+						<li>
+							<thingDef>DankPyon_RusticRoomDivider1x2c</thingDef>
+							<styleDef>FernyAliaile_ARSaF_GPartition</styleDef>
+						</li>
+						<li>
+							<thingDef>DankPyon_RusticThickRoomDivider_Open1x2c</thingDef>
+							<styleDef>FernyAliaile_ARSaF_PartitionB</styleDef>
+						</li>
+						<li>
+							<thingDef>DankPyon_RusticThickRoomDivider_Closed1x2c</thingDef>
+							<styleDef>FernyAliaile_ARSaF_GPartitionB</styleDef>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName = "DankPyon_RusticRoomDivider1x2c"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+					<nomatch Class="PatchOperationConditional">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName = "DankPyon_RusticRoomDivider1x2c"]/comps</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "DankPyon_RusticRoomDivider1x2c"]</xpath>
+							<value>
+								<comps>
+									<li Class="CompProperties_Styleable" />
+								</comps>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "DankPyon_RusticRoomDivider1x2c"]/comps</xpath>
+							<value>
+								<li Class="CompProperties_Styleable" />
+							</value>
+						</match>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName = "DankPyon_RusticThickRoomDivider_Open1x2c"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+					<nomatch Class="PatchOperationConditional">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName = "DankPyon_RusticThickRoomDivider_Open1x2c"]/comps</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "DankPyon_RusticThickRoomDivider_Open1x2c"]</xpath>
+							<value>
+								<comps>
+									<li Class="CompProperties_Styleable" />
+								</comps>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "DankPyon_RusticThickRoomDivider_Open1x2c"]/comps</xpath>
+							<value>
+								<li Class="CompProperties_Styleable" />
+							</value>
+						</match>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName = "DankPyon_RusticThickRoomDivider_Closed1x2c"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+					<nomatch Class="PatchOperationConditional">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName = "DankPyon_RusticThickRoomDivider_Closed1x2c"]/comps</xpath>
+						<nomatch Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "DankPyon_RusticThickRoomDivider_Closed1x2c"]</xpath>
+							<value>
+								<comps>
+									<li Class="CompProperties_Styleable" />
+								</comps>
+							</value>
+						</nomatch>
+						<match Class="PatchOperationAdd">
+							<success>Always</success>
+							<xpath>/Defs/ThingDef[defName = "DankPyon_RusticThickRoomDivider_Closed1x2c"]/comps</xpath>
+							<value>
+								<li Class="CompProperties_Styleable" />
+							</value>
+						</match>
+					</nomatch>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

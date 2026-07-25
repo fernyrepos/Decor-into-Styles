@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyLongyun_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>RRPingxiangDiningTable</li>
+			<li>RRPingxiangDiningTableTwo</li>
+			<li>RRNanchangDiningTable</li>
+			<li>RRLijiangEndtable</li>
+			<li>RRLincangDresser</li>
+			<li MayRequire="VanillaExpanded.VFECore">RRDalianWardrobe</li>
+			<li>RRKunmingSingleBed</li>
+			<li>RRTaiyuanDoubleBed</li>
+			<li>RRChangzhiSingleBed</li>
+			<li>RRYunchengDoubleBed</li>
+			<li>RRHefeiChair</li>
+			<li>RRShanghaiSofa</li>
+			<li>RRNanjingSofa</li>
+			<li>RRDandongLamp</li>
+			<li>RRJinzhouLamp</li>
+			<li>RRGoTable</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul">RRQujingScreen</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

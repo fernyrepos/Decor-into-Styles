@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_Stool</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_DiningChairB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_DiningChair</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_DiningChair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_Armchair</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Armchair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_Couch</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Sofa</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_PlantPot</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_UekiBachi</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_TableF</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_tableF</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_TableA</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_tableA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_TableB</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_tableB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_TableD</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_tableD</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_TableE</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_tableE</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_TableC</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_tableC</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_TubeTelevision</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_TVtableA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_FlatscreenTelevision</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_TVtableB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_BilliardsTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Billiards</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_PokerTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_PokerTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_ChessTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_ChessTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_Bed</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Bed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_DoubleBed</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_DBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.05,2.05)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_RoyalBed</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Gouka</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_EndTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Endtable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.0,1.0)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_GEndTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_GEndtable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.0,1.0)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_Dresser</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Tansu</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_GDresser</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_GTansu</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_Partition</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Partition</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.6,3.6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_PartitionB</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_PartitionB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.5,3.6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_GPartition</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_GPartition</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.6,3.6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_ARSaF_GPartitionB</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_GPartitionB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.5,3.6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_AR_RaguD</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_CarpetD</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_AR_RaguC</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_CarpetC</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_AR_RaguA</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_CarpetA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_AR_RaguB</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_CarpetB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(6,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_AR_RaguF</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_CarpetFA</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_AR_RaguG</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_CarpetG</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef>
+		<defName>FernyAliaile_AR_StylingStation</defName>
+		<graphicData>
+			<texPath>Things/Building/Bedroom/AR_Kesyodai</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.5,3.6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>

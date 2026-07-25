@@ -8,6 +8,10 @@
     <li IfModActive="mingtuwuxiang.gothicdecorative">1.6/Mods and Shit/MUS Gothic</li>
     <li IfModActive="mingtuwuxiang.fishingdecorative">1.6/Mods and Shit/MUS Fishing</li>
     <li IfModActive="mingtuwuxiang.spacebasedecorative">1.6/Mods and Shit/MUS SpaceBase</li>
+    <li IfModActive="Misstall.Furniture">1.6/Mods and Shit/Misstall Furniture</li>
+    <li IfModActive="Resurrectionem.FurnitureAsia">1.6/Mods and Shit/RR Furniture Longyun</li>
+    <li IfModActive="Resurrectionem.Furniture">1.6/Mods and Shit/RR Furniture Rapture</li>
+    <li IfModActive="Misstall.AR.IdeologyStyle">1.6/Mods and Shit/Aliaile Race Furniture</li>
     <li IfModActive="ponpeco.pfkidsroom">1.6/Mods and Shit/Ponpeco Kids Room</li>
   </v1.6>
 </loadFolders>

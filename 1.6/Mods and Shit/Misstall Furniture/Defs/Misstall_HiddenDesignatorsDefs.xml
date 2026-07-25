@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyMisstall_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>MF_Column</li>
+			<li>MF_Bed</li>
+			<li>MF_DoubleBed</li>
+			<li>MF_EndTable</li>
+			<li>MF_Locker</li>
+			<li>MF_PlantPot</li>
+			<li>MF_StandingLamp</li>
+			<li>MF_FloodLight</li>
+			<li>MF_WallLamp</li>
+			<li>MF_TableF</li>
+			<li>MF_TableA</li>
+			<li>MF_TableD</li>
+			<li>MF_TableE</li>
+			<li>MF_TableC</li>
+			<li>MF_Stool</li>
+			<li>MF_DiningChair</li>
+			<li>MF_Armchair</li>
+			<li>MF_Couch</li>
+			<li>MF_BilliardsTable</li>
+			<li>MF_PokerTable</li>
+			<li>MF_TubeTelevision</li>
+			<li>MF_FlatscreenTelevision</li>
+			<li MayRequire="Nightmare.Museums">MF_bench</li>
+			<li MayRequire="Nightmare.Museums">MF_benchB</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul">MF_Partition</li>
+			<li>MF_ChessTable</li>
+			<li MayRequire="VanillaExpanded.VFECore">MF_Joy_InudstrialComputer</li>
+			<li MayRequire="VanillaExpanded.VFECore">MF_Radio_Industrial</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>
