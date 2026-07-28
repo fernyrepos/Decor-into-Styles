@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<VEF.Buildings.HiddenDesignatorsDef>
-		<defName>FernyPonpecoKidsRoomAesthetics_HiddenDesignators</defName>
-		<hiddenDesignators>
+		<defName>FernyPonpecoKidsRoomAesthetics2_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>PFK_ShelfSmall</li>
+			<li>PFK_Stool</li>
+			<li>PFK_DiningChair</li>
+			<li>PFK_Armchair</li>
+			<li>PFK_MiniTable</li>
+			<li>PFK_Table2x2c</li>
+			<li>PFK_EndTable</li>
+			<li>PFK_Dresser</li>
+			<li>PFK_Bedroll</li>
+			<li>PFK_BedAa</li>
+			<li>PFK_BedAb</li>
 			<li>PFK_DoubleBed</li>
 			<li>PFK_RoyalBed</li>
-		</hiddenDesignators>
+			<li>PFK_RingToss</li>
+			<li>PFK_TubeTelevision</li>
+			<li>PFK_RingTossB</li>
+			<li>PFK_RingTossC</li>
+			<li>PFK_RingTossD</li>
+			<li>PFK_AnimalLamp</li>
+			<li>PFK_AnimalLampB</li>
+			<li>PFK_AnimalLampC</li>
+			<li>PFK_AnimalLampD</li>
+			<li>PFK_Ball</li>
+			<li>PFK_Cushion</li>
+			<li>PFK_WoodenToySC</li>
+			<li>PFK_WoodenToySB</li>
+			<li>PFK_WoodenToySD</li>
+			<li>PFK_WoodenToyS</li>
+			<li>PFK_PKCDog</li>
+			<li>PFK_PKCRobo</li>
+			<li>PFK_WoodenToyD</li>
+			<li>PFK_WoodenToyB</li>
+			<li>PFK_WoodenToyC</li>
+			<li>PFK_WoodenToy</li>
+			<li>PFK_GiantPlushieB</li>
+			<li>PFK_GiantPlushieM</li>
+			<li>PFK_GiantPlushie</li>
+			<li MayRequire="adaptive.storage.framework">PFK_AdaptiveClothingRack</li>
+		</hiddenDesignators>							
 	</VEF.Buildings.HiddenDesignatorsDef>
 </Defs>
