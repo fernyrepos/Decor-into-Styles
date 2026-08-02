@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/StyleCategoryDef[defName="Ferny_Japanese"]/thingDefStyles</xpath>
+				<value>
+					<li>
+						<thingDef>TripleBed</thingDef>
+						<styleDef>FernyJapanese_TripleBed</styleDef>
+					</li>
+					<li>
+						<thingDef>QuadBed</thingDef>
+						<styleDef>FernyJapanese_QuadBed</styleDef>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationConditional">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="TripleBed"]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+				<nomatch Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="TripleBed"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="TripleBed"]</xpath>
+						<value>
+							<comps>
+								<li Class="CompProperties_Styleable" />
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="TripleBed"]/comps</xpath>
+						<value>
+							<li Class="CompProperties_Styleable" />
+						</value>
+					</match>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName="QuadBed"]/comps/li[@Class="CompProperties_Styleable"]</xpath>
+				<nomatch Class="PatchOperationConditional">
+					<success>Always</success>
+					<xpath>/Defs/ThingDef[defName="QuadBed"]/comps</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="QuadBed"]</xpath>
+						<value>
+							<comps>
+								<li Class="CompProperties_Styleable" />
+							</comps>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<success>Always</success>
+						<xpath>/Defs/ThingDef[defName="QuadBed"]/comps</xpath>
+						<value>
+							<li Class="CompProperties_Styleable" />
+						</value>
+					</match>
+				</nomatch>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

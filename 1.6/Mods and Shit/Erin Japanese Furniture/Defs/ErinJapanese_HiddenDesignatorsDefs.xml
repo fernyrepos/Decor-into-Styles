@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyJapanese_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>Erin_FutonB</li>
+			<li>Erin_DoubleFutonA</li>
+			<li>Erin_Zaisu</li>
+			<li>Erin_Zabuton</li>
+			<li>Erin_Kotatsu</li>
+			<li>Erin_LowTable</li>
+			<li>Erin_ElectricAndon</li>
+			<li>Erin_TorchAndon</li>
+			<li>Erin_BonsaiPot</li>
+			<li>Erin_Shoji</li>
+			<li>Erin_Fusuma</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

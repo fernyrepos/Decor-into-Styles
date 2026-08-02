@@ -29,6 +29,14 @@
 				<thingDef>StandingLamp</thingDef>
 				<styleDef>FernyCottage_Lamp</styleDef>
 			</li>
+			<li>
+				<thingDef>Bed</thingDef>
+				<styleDef>FernyCottage_Bed</styleDef>
+			</li>
+			<li>
+				<thingDef>DoubleBed</thingDef>
+				<styleDef>FernyCottage_DoubleBed</styleDef>
+			</li>
 		</thingDefStyles>
 
 	</StyleCategoryDef>

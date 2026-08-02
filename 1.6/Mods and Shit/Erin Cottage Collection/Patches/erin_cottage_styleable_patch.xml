@@ -74,4 +74,54 @@
 			</match>
 		</nomatch>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName = "Bed"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName = "Bed"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName = "Bed"]</xpath>
+				<value>
+					<comps>
+						<li Class="CompProperties_Styleable" />
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName = "Bed"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_Styleable" />
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName = "DoubleBed"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName = "DoubleBed"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName = "DoubleBed"]</xpath>
+				<value>
+					<comps>
+						<li Class="CompProperties_Styleable" />
+					</comps>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName = "DoubleBed"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_Styleable" />
+				</value>
+			</match>
+		</nomatch>
+	</Operation>
+
 </Patch>

@@ -67,4 +67,20 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyCottage_Bed</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/QuiltedBed/QuiltedBedSingle</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyCottage_DoubleBed</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/QuiltedBed/QuiltedBedDouble</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.05,2.05)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
 </Defs>

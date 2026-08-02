@@ -4,6 +4,8 @@
     <li>1.6</li>
     <li IfModActive="Van.DACrypts">1.6/Mods and Shit/Dark Ages CAT</li>
     <li IfModActive="erin.cottagecollection">1.6/Mods and Shit/Erin Cottage Collection</li>
+    <li IfModActive="Erin.JapaneseFurniture">1.6/Mods and Shit/Erin Japanese Furniture</li>
+    <li IfModActiveAll="Erin.JapaneseFurniture,Meltup.PolyamoryBeds.Vanilla">1.6/Mods and Shit/Erin Japanese Furniture + Polyamory Beds</li>
     <li IfModActive="dankpyon.medieval.overhaul">1.6/Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="mingtuwuxiang.gothicdecorative">1.6/Mods and Shit/MUS Gothic</li>
     <li IfModActive="mingtuwuxiang.fishingdecorative">1.6/Mods and Shit/MUS Fishing</li>
@@ -12,6 +14,8 @@
     <li IfModActive="Resurrectionem.FurnitureAsia">1.6/Mods and Shit/RR Furniture Longyun</li>
     <li IfModActive="Resurrectionem.Furniture">1.6/Mods and Shit/RR Furniture Rapture</li>
     <li IfModActive="Misstall.AR.IdeologyStyle">1.6/Mods and Shit/Aliaile Race Furniture</li>
+    <li IfModActive="TW.NRH.Furniture">1.6/Mods and Shit/Neo-Retro Haus Furniture</li>
+    <li IfModActive="ponpeco.PFSF">1.6/Mods and Shit/Ponpeco Sci-Fi</li>
     <li IfModActive="ponpeco.pfkidsroom">1.6/Mods and Shit/Ponpeco Kids Room</li>
   </v1.6>
 </loadFolders>

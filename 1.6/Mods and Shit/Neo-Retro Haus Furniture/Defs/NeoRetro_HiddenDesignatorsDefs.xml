@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyNeoRetro_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>NRH_SANDMONArmchair</li>
+			<li>NRH_SANDMON_LongSofa</li>
+			<li>NRH_SANDMON_FabricArmchair</li>
+			<li>NRH_SANDMON_FabricSofa</li>
+			<li>NRH_HANS_EndTable</li>
+			<li>NRH_HANS_Bookshelf</li>
+			<li>NRH_HANS_OfficeDesk</li>
+			<li>NRH_MERCURY_Table2x2c</li>
+			<li>NRH_MERCURY_EggChair</li>
+			<li>NRH_MERCURY_PlantPot</li>
+			<li>NRH_MERCURY_Bed</li>
+			<li>NRH_MERCURY_DoubleBed</li>
+			<li>NRH_MERCURY_Dresser</li>
+			<li>NRH_NE_StandingLamp</li>
+			<li>NRH_NE_ParabolicLamp</li>
+			<li>NRH_MERCURY_Lamp</li>
+			<li>NRH_HANS_RoundTeaTable</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

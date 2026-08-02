@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyPonpecoSciFiStyles_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>PFS_ColumnA</li>
+			<li>PFS_Bed</li>
+			<li>PFS_DoubleBed</li>
+			<li>PFS_RoyalBed</li>
+			<li>PFS_AnimalBed</li>
+			<li>PFS_EndTable</li>
+			<li>PFS_TableB</li>
+			<li>PFS_HexaTable</li>
+			<li>PFS_Stool</li>
+			<li>PFS_DiningChair</li>
+			<li>PFS_Armchair</li>
+			<li>PFS_Couch</li>
+			<li>PFS_CubeLight</li>
+			<li>PFS_DresserA</li>
+			<li>PFS_PokerTable</li>
+			<li>PFS_BilliardsTable</li>
+			<li>PFS_FirefoamPopper</li>
+			<li>PFS_Heater</li>
+			<li>PFS_Barricade</li>
+			<li>PFS_Shelf</li>
+			<li>PFS_ShelfSmall</li>
+			<li>PFS_AutodoorC</li>
+			<li>PFS_AutodoorB</li>
+			<li>PFS_SteelDoor</li>
+			<li>PFS_ColumnB</li>
+			<li>PFS_BedB</li>
+			<li>PFS_DoubleBedB</li>
+			<li>PFS_TableC</li>
+			<li>PFS_ZFrameTable</li>
+			<li>PFS_StoolB</li>
+			<li>PFS_ArmchairB</li>
+			<li>PFS_TriLight</li>
+			<li>PFS_DresserB</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+	<VEF.Buildings.HiddenDesignatorsDef MayRequire="VanillaExpanded.VFECore">
+		<defName>FernyPonpecoSciFiStylesVFECore_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>PFS_TableMini</li>
+			<li>PFS_TableMiniB</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+	<VEF.Buildings.HiddenDesignatorsDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>FernyPonpecoSciFiStylesBiotech_HiddenDesignators</defName>
+		<hiddenDesignators>
+			<li>PFS_Crib</li>
+		</hiddenDesignators>
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

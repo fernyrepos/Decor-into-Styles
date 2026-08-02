@@ -8,6 +8,8 @@
 			<li>CCol_CottageLamp</li>
 			<li>CCot_CottageTable2x2a</li>
 			<li>CCot_CottageTableBlanket2x2a</li>
+			<li>CCol_QuiltedBed</li>
+			<li>CCol_QuiltedDoubleBed</li>
 		</hiddenDesignators>
 	</VEF.Buildings.HiddenDesignatorsDef>
 </Defs>

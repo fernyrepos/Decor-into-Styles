@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_SANDMONArmchair</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Armchair/NRH_SandmonArmchair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.6,2.6)</drawSize>
+			<damageData>
+				<rectN>(0,0,1,0.703125)</rectN>
+				<rectS>(0.09375,0,0.84375,1)</rectS>
+				<rectE>(0,0,0.84375,0.625)</rectE>
+				<rectW>(0.15625,0,0.84375,0.625)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.3, 0.33, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_SANDMONLongSofa</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Armchair/NRH_SANDMON_LongSofa</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.9,2.9)</drawSize>
+			<damageData>
+				<rectN>(0,0,1,0.703125)</rectN>
+				<rectS>(0.09375,0,0.84375,1)</rectS>
+				<rectE>(0,0,0.84375,0.625)</rectE>
+				<rectW>(0.15625,0,0.84375,0.625)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.3, 0.33, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_SANDMONFabricArmchair</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Armchair/NRH_SANDMON_FabricArmchair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.6,1.6)</drawSize>
+			<damageData>
+				<rectN>(0,0,1,0.703125)</rectN>
+				<rectS>(0.09375,0,0.84375,1)</rectS>
+				<rectE>(0,0,0.84375,0.625)</rectE>
+				<rectW>(0.15625,0,0.84375,0.625)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.3, 0.33, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_SANDMONFabricSofa</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Armchair/NRH_SANDMON_FabricSofa</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.3,3.3)</drawSize>
+			<damageData>
+				<rectN>(0,0,1,0.703125)</rectN>
+				<rectS>(0.09375,0,0.84375,1)</rectS>
+				<rectE>(0,0,0.84375,0.625)</rectE>
+				<rectW>(0.15625,0,0.84375,0.625)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.3, 0.33, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_HANSEndTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/NRH_HansEndTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.8,1.8)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_HANSBookshelf</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/NRH_HANS_Bookshelf</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.74,3.74)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_HANSOfficeDesk</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/NeoRetro/FernyNeoRetro_HANSOfficeDesk_DirectionalSwap</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.4,2.7)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_MERCURYTable2x2c</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/NRH_MERCURY_Table2x2c</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.4,3.4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_MERCURYEggChair</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Armchair/NRH_MERCURY_EggChair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.1,2.1)</drawSize>
+			<damageData>
+				<rectN>(0,0,1,0.703125)</rectN>
+				<rectS>(0.09375,0,0.84375,1)</rectS>
+				<rectE>(0,0,0.84375,0.625)</rectE>
+				<rectW>(0.15625,0,0.84375,0.625)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.3, 0.33, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_MERCURYPlantPot</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/NRH_MERCURY_PlantPot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawRotated>true</drawRotated>
+			<drawSize>(1.6,1.6)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_MERCURYBed</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bed/NRH_MERCURY_Bed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3.6,3.6)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_MERCURYDoubleBed</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bed/NRH_MERCURY_DoubleBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4.05,4.05)</drawSize>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_MERCURYDresser</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/NRH_MERCURY_Dresser</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.74,3.74)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_NEStandingLamp</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Light/NRH_NE_StandingLamp</texPath>
+			<drawSize>(3.5,3.5)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_NEParabolicLamp</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Light/NRH_NE_ParabolicLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawRotated>true</drawRotated>
+			<drawSize>(3.5,3.5)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_MERCURYLamp</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Light/NRH_MERCURY_Lamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawRotated>true</drawRotated>
+			<drawSize>(2,2)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyNeoRetro_HANSRoundTeaTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/NRH_HANS_RoundTeaTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.85,1.85)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>

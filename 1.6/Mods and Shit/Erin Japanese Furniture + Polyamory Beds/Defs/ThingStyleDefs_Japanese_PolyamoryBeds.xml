@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyJapanese_TripleBed</defName>
+		<graphicData>
+			<texPath>Futon3/Futon3B</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3.05,2.05)</drawSize>
+			<damageData>
+				<rect>(0,0.05,3,2.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyJapanese_QuadBed</defName>
+		<graphicData>
+			<texPath>Futon4/Futon4B</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4.10,2.10)</drawSize>
+			<damageData>
+				<rect>(0,0.05,4,3.95)</rect>
+			</damageData>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>
