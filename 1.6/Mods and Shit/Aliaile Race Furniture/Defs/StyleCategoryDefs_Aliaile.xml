@@ -3,6 +3,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_Aliaile</defName>
 		<label>aliaile</label>
+		<iconPath>Styles/Ferny_Aliaile</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Stool</thingDef>

@@ -3,6 +3,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_Cosmic</defName>
 		<label>cosmic</label>
+		<iconPath>Styles/Ferny_Cosmic</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Column</thingDef>
@@ -105,6 +106,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_Nebular</defName>
 		<label>nebular</label>
+		<iconPath>Styles/Ferny_Nebular</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Column</thingDef>

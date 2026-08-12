@@ -3,6 +3,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_Longyun</defName>
 		<label>longyun</label>
+		<iconPath>Styles/Ferny_Longyun</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Table1x2c</thingDef>
@@ -25,7 +26,7 @@
 				<styleDef>FernyLongyun_RRLincangDresser</styleDef>
 			</li>
 			<li MayRequire="VanillaExpanded.VFECore">
-				<thingDef>Wardrobe</thingDef>
+				<thingDef>Table_Wardrobe</thingDef>
 				<styleDef>FernyLongyun_RRDalianWardrobe</styleDef>
 			</li>
 			<li>

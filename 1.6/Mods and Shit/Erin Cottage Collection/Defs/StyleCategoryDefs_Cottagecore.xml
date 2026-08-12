@@ -3,7 +3,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_Cottagecore</defName>
 		<label>cottagecore</label>
-		<iconPath>UI/StyleCategories/Ferny_Rustic</iconPath>
+		<iconPath>Styles/Ferny_Cottagecore</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Table1x2c</thingDef>

@@ -3,6 +3,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_Rapture</defName>
 		<label>rapture</label>
+		<iconPath>Styles/Ferny_Rapture</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Table1x2c</thingDef>
@@ -113,11 +114,11 @@
 				<styleDef>FernyRapture_RRDresserTwo</styleDef>
 			</li>
 			<li MayRequire="VanillaExpanded.VFECore">
-				<thingDef>Wardrobe</thingDef>
+				<thingDef>Table_Wardrobe</thingDef>
 				<styleDef>FernyRapture_RRHeronaWardrobe</styleDef>
 			</li>
 			<li MayRequire="VanillaExpanded.VFECore">
-				<thingDef>Wardrobe</thingDef>
+				<thingDef>Table_Wardrobe</thingDef>
 				<styleDef>FernyRapture_RRTaragonaWardrobe</styleDef>
 			</li>
 			<li>

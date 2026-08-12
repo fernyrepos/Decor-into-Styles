@@ -3,6 +3,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_NeoRetro</defName>
 		<label>neo-retro</label>
+		<iconPath>Styles/Ferny_NeoRetro</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Armchair</thingDef>

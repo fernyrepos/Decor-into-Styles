@@ -3,6 +3,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_Misstall</defName>
 		<label>misstall</label>
+		<iconPath>Styles/Ferny_Misstall</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Column</thingDef>

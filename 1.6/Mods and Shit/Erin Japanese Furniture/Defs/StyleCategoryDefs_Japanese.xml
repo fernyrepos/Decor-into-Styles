@@ -3,6 +3,7 @@
 	<StyleCategoryDef>
 		<defName>Ferny_Japanese</defName>
 		<label>Japanese</label>
+		<iconPath>Styles/Ferny_Japanese</iconPath>
 		<thingDefStyles>
 			<li>
 				<thingDef>Bed</thingDef>
