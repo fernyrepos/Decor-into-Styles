@@ -146,6 +146,30 @@
 		</Operation>
 	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
+		<xpath>/Defs/ThingDef[defName = "Bedroll"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<nomatch Class="PatchOperationConditional">
+			<success>Always</success>
+			<xpath>/Defs/ThingDef[defName = "Bedroll"]/comps</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName = "Bedroll"]</xpath>
+				<value>
+					<comps>
+						<li Class="CompProperties_Styleable" />
+						</comps>
+					</value>
+				</nomatch>
+			<match Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>/Defs/ThingDef[defName = "Bedroll"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_Styleable" />
+					</value>
+				</match>
+			</nomatch>
+		</Operation>
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
 		<xpath>/Defs/ThingDef[defName = "EndTable"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
 		<nomatch Class="PatchOperationConditional">
 			<success>Always</success>

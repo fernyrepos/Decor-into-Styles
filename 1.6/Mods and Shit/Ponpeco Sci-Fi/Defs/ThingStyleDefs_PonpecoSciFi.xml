@@ -55,6 +55,15 @@
 		</graphicData>
 	</ThingStyleDef>
 	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyCosmic_Bedroll</defName>
+		<graphicData>
+			<texPath>Things/Building/PFSFurniture/PFS_Bedroll/PFS_Bedroll</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.12)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
 		<defName>FernyCosmic_EndTable</defName>
 		<graphicData>
 			<texPath>Things/Building/PFSFurniture/PFS_EndTable/PFS_EndTable</texPath>

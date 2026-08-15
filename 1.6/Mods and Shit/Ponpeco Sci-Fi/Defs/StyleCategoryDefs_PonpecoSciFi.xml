@@ -30,6 +30,10 @@
 				<styleDef>FernyCosmic_AnimalBed</styleDef>
 				</li>
 			<li>
+				<thingDef>Bedroll</thingDef>
+				<styleDef>FernyCosmic_Bedroll</styleDef>
+				</li>
+			<li>
 				<thingDef>EndTable</thingDef>
 				<styleDef>FernyCosmic_EndTable</styleDef>
 				</li>

@@ -8,6 +8,7 @@
 			<li>PFS_DoubleBed</li>
 			<li>PFS_RoyalBed</li>
 			<li>PFS_AnimalBed</li>
+			<li>PFS_Bedroll</li>
 			<li>PFS_EndTable</li>
 			<li>PFS_TableB</li>
 			<li>PFS_HexaTable</li>
