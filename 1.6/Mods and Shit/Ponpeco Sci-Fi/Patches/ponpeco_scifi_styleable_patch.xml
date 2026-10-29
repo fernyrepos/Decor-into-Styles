@@ -194,7 +194,7 @@
 		</Operation>
 	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
-		<xpath>/Defs/ThingDef[defName = "Table1x2c"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<xpath>/Defs/ThingDef[defName = "Table1x2c" or @Name = "TableGatherSpotBase"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
 		<nomatch Class="PatchOperationConditional">
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName = "Table1x2c"]/comps</xpath>
@@ -218,7 +218,7 @@
 		</Operation>
 	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
-		<xpath>/Defs/ThingDef[defName = "Table2x2c"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<xpath>/Defs/ThingDef[defName = "Table2x2c" or @Name = "TableGatherSpotBase"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
 		<nomatch Class="PatchOperationConditional">
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName = "Table2x2c"]/comps</xpath>
@@ -506,7 +506,7 @@
 		</Operation>
 	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
-		<xpath>/Defs/ThingDef[defName = "Shelf"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<xpath>/Defs/ThingDef[defName = "Shelf" or @Name = "ShelfBase"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
 		<nomatch Class="PatchOperationConditional">
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName = "Shelf"]/comps</xpath>
@@ -530,7 +530,7 @@
 		</Operation>
 	<Operation Class="PatchOperationConditional">
 		<success>Always</success>
-		<xpath>/Defs/ThingDef[defName = "ShelfSmall"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+		<xpath>/Defs/ThingDef[defName = "ShelfSmall" or @Name = "ShelfBase"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
 		<nomatch Class="PatchOperationConditional">
 			<success>Always</success>
 			<xpath>/Defs/ThingDef[defName = "ShelfSmall"]/comps</xpath>
